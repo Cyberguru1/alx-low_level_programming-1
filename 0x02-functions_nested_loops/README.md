@@ -1,0 +1,1 @@
+#0 A program that prints "\_putchar" followed by a new line #1. Writing a function that prints the alphabet in lowercase #2. Writing a function that prints 10 times the alphabet #3. A function that checks for lower case
