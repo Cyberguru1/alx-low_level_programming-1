@@ -1,1 +1,12 @@
-. Writing a function that takes a pointer to an int #. A function that swaps the value of two integers #. A function that returns the length of a string #. A function that prints a string #. A function that prints a string in reverse #5. A function that reverses a string #. Printing letters while skipping #. Print half of the string #. Print elements of an array #9. Copies string pointed by src #. Convert a string to integer #. Generate random valid passwords.
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+int _putchar();
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
