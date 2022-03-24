@@ -24,4 +24,12 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 
 	/* ensure than n bytes are written */
+	while (i < n)
+	{
+		*dest++ = '\0';
+		i++;
+	}
 
+	return (new_dest);
+
+}
