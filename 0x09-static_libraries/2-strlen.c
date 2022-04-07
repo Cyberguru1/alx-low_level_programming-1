@@ -5,9 +5,6 @@
  * Return: Nothing
  */
 
-int main(void)
-{
-
 int _strlen(char *s)
 {
 	int length = 0;
@@ -15,6 +12,4 @@ int _strlen(char *s)
 	while (s[length] != '\0')
 		length++;
 	return (length);
-}
-
 }
