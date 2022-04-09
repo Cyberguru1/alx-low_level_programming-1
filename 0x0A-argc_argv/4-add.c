@@ -62,4 +62,5 @@ int is_valid_int(char *s)
 		s++;
 	}
 
-	ret
+	return (1);
+}
