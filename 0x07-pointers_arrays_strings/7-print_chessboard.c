@@ -4,8 +4,6 @@
  * print_chessboard - prints 8x8 chessboard
  * @a: 2D-array containing chessboard values
  */
-int main(void)
-{
 void print_chessboard(char (*a)[8])
 {
 	int i;
@@ -18,5 +16,4 @@ void print_chessboard(char (*a)[8])
 
 		_putchar('\n');
 	}
-}
 }
